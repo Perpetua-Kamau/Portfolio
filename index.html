@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Excel &amp; Data Expert</title>
+<meta name="description" content="Excel and data expert portfolio — dashboards, automation, and financial modeling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500;1,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="#top" class="nav__mark">Your Name</a>
+  <div class="nav__links">
+    <a href="#expertise">expertise</a>
+    <a href="#projects">case studies</a>
+    <a href="#about">about</a>
+    <a href="#contact">contact</a>
+  </div>
+  <!-- RESUME LINK: upload your résumé as a PDF named "resume.pdf" to this
+       same folder (GitHub: "Add file → Upload files") and this link works
+       automatically. Only change resume.pdf below if you named the file
+       something else or want to link to a resume hosted elsewhere. -->
+  <a href="resume.pdf" class="nav__resume" download>Résumé</a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="top" class="hero">
+  <div class="hero__inner">
+    <p class="eyebrow">Excel &amp; Data Strategy</p>
+    <h1 class="hero__title">
+      Spreadsheets that tell you<br>
+      <em>exactly</em> where you stand.
+    </h1>
+    <p class="hero__sub">
+      Your Name — I build dashboards, financial models, and automations in
+      Excel that turn scattered numbers into decisions your team can act on.
+      Based in <span class="locality">Nairobi, Kenya</span>.
+    </p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">See the work</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <!-- Signature element: a small "at a glance" insights panel — a bar
+       chart with a trend line, plus a 4-week activity heatmap -->
+  <div class="insights" role="img" aria-label="A sample dashboard panel: a bar chart comparing quarterly revenue across five regions with a trend line above it, and a four-week report-activity heatmap below">
+    <div class="insights__head">
+      <span>At a glance</span>
+      <span class="insights__tag">sample dashboard</span>
+    </div>
+
+    <svg class="insights__chart" viewBox="0 0 240 110" aria-hidden="true">
+      <line x1="6" y1="92" x2="234" y2="92" class="insights__baseline" />
+      <rect class="bar" x="14"  y="52" width="22" height="40" style="--d:0"/>
+      <rect class="bar" x="60"  y="28" width="22" height="64" style="--d:1"/>
+      <rect class="bar" x="106" y="42" width="22" height="50" style="--d:2"/>
+      <rect class="bar bar--peak" x="152" y="14" width="22" height="78" style="--d:3"/>
+      <rect class="bar" x="198" y="36" width="22" height="56" style="--d:4"/>
+      <polyline class="insights__trend" points="25,44 71,20 117,34 163,6 209,28" />
+    </svg>
+    <p class="insights__caption">Quarterly revenue by region</p>
+
+    <div class="insights__heatmap" aria-hidden="true">
+      <div class="cell lvl-2" style="--i:0"></div><div class="cell lvl-4" style="--i:1"></div><div class="cell lvl-3" style="--i:2"></div><div class="cell lvl-4" style="--i:3"></div><div class="cell lvl-2" style="--i:4"></div><div class="cell lvl-1" style="--i:5"></div><div class="cell lvl-0" style="--i:6"></div>
+      <div class="cell lvl-3" style="--i:7"></div><div class="cell lvl-3" style="--i:8"></div><div class="cell lvl-4" style="--i:9"></div><div class="cell lvl-4" style="--i:10"></div><div class="cell lvl-3" style="--i:11"></div><div class="cell lvl-0" style="--i:12"></div><div class="cell lvl-1" style="--i:13"></div>
+      <div class="cell lvl-1" style="--i:14"></div><div class="cell lvl-4" style="--i:15"></div><div class="cell lvl-2" style="--i:16"></div><div class="cell lvl-3" style="--i:17"></div><div class="cell lvl-4" style="--i:18"></div><div class="cell lvl-1" style="--i:19"></div><div class="cell lvl-0" style="--i:20"></div>
+      <div class="cell lvl-4" style="--i:21"></div><div class="cell lvl-3" style="--i:22"></div><div class="cell lvl-4" style="--i:23"></div><div class="cell lvl-2" style="--i:24"></div><div class="cell lvl-3" style="--i:25"></div><div class="cell lvl-1" style="--i:26"></div><div class="cell lvl-0" style="--i:27"></div>
+    </div>
+    <p class="insights__caption">Report activity, last 4 weeks</p>
+  </div>
+</header>
+
+<main>
+<!-- ============ EXPERTISE ============ -->
+<section id="expertise" class="expertise">
+  <p class="section-eyebrow">No. 01</p>
+  <h2 class="section-title">Where I add the most value</h2>
+  <div class="expertise__grid">
+    <div class="expertise__card">
+      <span class="expertise__num">01</span>
+      <h3>Power Query &amp; Power Pivot</h3>
+      <p>Pull, clean, and model data from any source into pipelines that refresh themselves — no more copy-paste reporting.</p>
+    </div>
+    <div class="expertise__card">
+      <span class="expertise__num">02</span>
+      <h3>Dashboards &amp; reporting</h3>
+      <p>Executive-ready dashboards with pivot charts and a visual hierarchy that reads clearly in ten seconds.</p>
+    </div>
+    <div class="expertise__card">
+      <span class="expertise__num">03</span>
+      <h3>VBA &amp; automation</h3>
+      <p>Macros that quietly remove hours of repetitive work from someone's week — reporting, formatting, file handling.</p>
+    </div>
+    <div class="expertise__card">
+      <span class="expertise__num">04</span>
+      <h3>Financial modeling</h3>
+      <p>Scenario models and forecasts built to survive a tough question in the boardroom.</p>
+    </div>
+    <div class="expertise__card">
+      <span class="expertise__num">05</span>
+      <h3>Data cleaning &amp; audit</h3>
+      <p>Untangling inherited workbooks — deduplication, validation, and analysis you can trust again.</p>
+    </div>
+    <div class="expertise__card expertise__card--cta">
+      <p>Have a workbook that needs help?</p>
+      <a href="#contact">Let's talk →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="projects">
+  <p class="section-eyebrow">No. 02</p>
+  <h2 class="section-title">Selected case studies</h2>
+
+  <div class="project-list">
+
+    <article class="project">
+      <div class="project__index">Fig. 01</div>
+      <div class="project__body">
+        <h3>Regional Sales Dashboard</h3>
+        <p>Replace this with 1–2 sentences: the messy starting point, what you built, and the result — for example, "cut monthly reporting from two days to twenty minutes." Outcomes beat feature lists.</p>
+        <ul class="project__tags">
+          <li>Power Query</li><li>Pivot Charts</li><li>Slicers</li>
+        </ul>
+        <div class="project__links">
+          <!-- CASE STUDY 1 LINKS — replace the # below each:
+               "Case study" → a link to a write-up (a blog post, a Google
+               Doc set to "anyone with the link can view", or another page
+               on this site).
+               "Download workbook" → either an external link (e.g. a Google
+               Drive share link to the .xlsx) OR upload the file to this
+               repo (Add file → Upload files) and use its filename/path,
+               e.g. href="projects/sales-dashboard.xlsx" -->
+          <a href="#">Case study →</a>
+          <a href="#">Download workbook ↓</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__index">Fig. 02</div>
+      <div class="project__body">
+        <h3>Invoice Automation Suite</h3>
+        <p>Describe the manual process this replaced and what the macros handle now — generation, validation, sending. Quantify the hours saved if you can.</p>
+        <ul class="project__tags">
+          <li>VBA</li><li>Macros</li><li>Outlook integration</li>
+        </ul>
+        <div class="project__links">
+          <!-- CASE STUDY 2 LINKS — same idea as above -->
+          <a href="#">Case study →</a>
+          <a href="#">Download workbook ↓</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__index">Fig. 03</div>
+      <div class="project__body">
+        <h3>Budget &amp; Forecast Model</h3>
+        <p>Keep this list to your strongest 3–5 projects. Depth over quantity — a reviewer remembers one workbook explained well.</p>
+        <ul class="project__tags">
+          <li>Power Pivot</li><li>DAX</li><li>Scenario analysis</li>
+        </ul>
+        <div class="project__links">
+          <!-- CASE STUDY 3 LINKS — same idea as above -->
+          <a href="#">Case study →</a>
+          <a href="#">Template ↓</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ ABOUT / RESUME ============ -->
+<section id="about" class="about">
+  <p class="section-eyebrow">No. 03</p>
+  <div class="about__grid">
+    <div class="about__copy">
+      <h2 class="section-title">A little about me</h2>
+      <p>
+        Swap this paragraph for your own story: how you fell into spreadsheets,
+        the kinds of problems you gravitate toward, and what you're looking for
+        next. Two or three short paragraphs is plenty — this should feel like
+        a person, not a LinkedIn summary.
+      </p>
+      <p>
+        Mention the industries you know well, the tools around Excel you use,
+        and anything memorable beyond the expertise grid above.
+      </p>
+      <!-- Same résumé file as the link in the nav bar above -->
+      <a href="resume.pdf" class="btn btn--primary" download>Download résumé</a>
+    </div>
+    <div class="about__facts">
+      <div class="fact">
+        <span class="fact__num">10+</span>
+        <span class="fact__label">years deep in spreadsheets</span>
+      </div>
+      <div class="fact">
+        <span class="fact__num">500h</span>
+        <span class="fact__label">saved for clients every year — use your real number</span>
+      </div>
+      <div class="fact">
+        <span class="fact__num">PQ→PV</span>
+        <span class="fact__label">Power Query &amp; Power Pivot, daily drivers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="contact">
+  <p class="section-eyebrow">No. 04</p>
+  <h2 class="section-title contact__title">Let's simplify your spreadsheets.</h2>
+  <div class="contact__row">
+    <a href="mailto:you@example.com" class="contact__email">you@example.com</a>
+    <div class="contact__socials">
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://upwork.com/freelancers/yourusername" target="_blank" rel="noopener">Upwork</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Your Name</span>
+  <span>Hosted on GitHub Pages</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
